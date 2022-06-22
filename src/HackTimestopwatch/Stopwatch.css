@@ -1,0 +1,62 @@
+.container {
+  width: 250px;
+  height: 250px;
+
+  color: lightcoral;
+  border: 2px solid red;
+
+  border-radius: 50%;
+  margin-left: 70px;
+  background-color: lightsalmon;
+  position: fixed;
+  overflow: hidden;
+}
+
+h2 {
+  color: lightcoral;
+  font-size: 30px;
+  margin-top: 5px;
+}
+.btnstart {
+  margin: 5px;
+  padding: 10px;
+
+  border: none;
+  font-size: 20px;
+  color: white;
+  background-color: white;
+  font-weight: bold;
+
+  right: 580px;
+}
+
+.btndiv .btnstart {
+  margin-top: 30px;
+  background-color: lightsalmon;
+}
+.rst {
+  padding: 10px;
+
+  margin-left: 270px;
+  color: black;
+  font-size: 15px;
+  border: none;
+}
+.time {
+  padding-top: 100px;
+  font-size: 40px;
+  font-weight: bold;
+  color: darkslategray;
+}
+@media (max-width: 500px) {
+  .main_container {
+    max-width: 100px;
+    height: 50px;
+    margin-bottom: 200px;
+  }
+}
+@media (max-width: 500px) {
+  h2 {
+    margin-left: 100px;
+  }
+}
